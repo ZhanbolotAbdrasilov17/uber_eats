@@ -1,4 +1,48 @@
 header{
+    position: absolute;
     width: 100%;
-    background-color: #ccc;
+    height: 72px;
+    background: #FFFFFF;
+}
+
+.container_header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.logo{
+    position: relative;
+    width: 119px;
+    height: 13px;
+    background: #999999;
+    top: 29px;
+    left: 81px;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    
+}
+
+.bt1{
+    margin: 0 9px 22px;
+    width: 62px;
+    height: 27px;
+}
+
+.bt2{
+    margin: 0 9px 22px;
+
+    width: 62px;
+    height: 27px;
+}
+
+.bt3{
+    margin: 0 9px 22px;
+
+    width: 62px;
+    height: 27px;
 }
